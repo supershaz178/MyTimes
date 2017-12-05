@@ -1,0 +1,159 @@
+/* Header*/
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  display: inline-flex;
+  align-items: center;
+  flex-grow: 1;
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+.logo span{
+  padding-left: 10px;
+}
+
+header nav{
+  padding-right: 40px;
+}
+
+nav span{
+  padding: 20px 10px;
+}
+
+a:link{
+  color: black;
+}
+
+/*Body Content and Styling*/
+.container{
+  display: flex;
+  position: absolute;
+  margin: 70px auto 78px auto;
+}
+
+.small, .large, .medium{
+  display: flex;
+  align-items: flex-start;
+}
+
+.large{
+  display: flex;
+  width: 630px;
+  flex-flow: column wrap;
+  margin: 40px 0px;
+}
+
+.medium{
+  width: 300px;
+  flex-direction: column;
+  margin: 40px 30px;
+}
+
+.small{
+  width: 240px;
+  flex-direction: column;
+  margin: 40px 0px;
+}
+
+.sideStoryContainer{
+  display: flex;
+  flex-shrink: 1;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.sideStory{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+#newsbitesTitle{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.newsbites{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.newsbite{
+  display: flex;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 10px;
+  color: DimGray;
+  border-top: 1px solid black;
+  height: 20px;
+}
+
+#mainStoryTitle, #cameraStoryTitle, #earthStoryTitle, #catStoryTitle{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+#mainStoryTitle{
+  background-image: url("../../resources/images/img-story-main.png");
+}
+
+#cameraStoryTitle{
+  background-image: url("../../resources/images/img-story-3.png");
+}
+
+#earthStoryTitle{
+  background-image: url("../../resources/images/img-story-2.png");
+}
+
+#catStoryTitle{
+  background-image: url("../../resources/images/img-story-1.png");
+}
+
+
+/*Footer Content*/
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+  top: 1150px;
+  width: 100%;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+#footerMyTimes{
+  font-family: Georgia;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
+}
+
+footer nav{
+  display: inline-block;
+  padding-left: 10px;
+}
